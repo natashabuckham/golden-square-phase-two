@@ -1,6 +1,5 @@
 # {{PROBLEM}} Method Design Recipe
 
-
 ## 1. Describe the Problem
 
 As a user
