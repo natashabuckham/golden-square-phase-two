@@ -27,3 +27,4 @@ end
 #
 # > decode("EMBAXNKEKSYOVQTBJSWBDEMBPHZGJSL", "secretkey")
 # => "theswiftfoxjumpedoverthelazydog"
+
