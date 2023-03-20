@@ -13,7 +13,7 @@ _Include the initializer and public methods with all parameters and return value
 ```ruby
 # EXAMPLE
 
-class MusicLibrary
+class MusicTracker
   def initialize
     # @track_list = []
   end
@@ -38,22 +38,22 @@ _Make a list of examples of how the class will behave in different situations._
 # EXAMPLE
 
 # 1
-music_library = MusicLibrary.new
+music_library = MusicTracker.new
 music_library.listen_to("song one")
 music_library.view_tracks # => ["song one"]
 
 # 2
-music_library = MusicLibrary.new
+music_library = MusicTracker.new
 music_library.view_tracks # => fails with "No tracks listened to."
 
 # 3
-music_library = MusicLibrary.new
+music_library = MusicTracker.new
 music_library.listen_to("song one")
 music_library.listen_to("song two")
 music_library.view_tracks # => ["song one", "song two"]
 
 # 4
-music_library = MusicLibrary.new
+music_library = MusicTracker.new
 music_library.listen_to(12) # => fails with "Track must be a string."
 ```
 
